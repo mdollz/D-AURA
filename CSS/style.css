@@ -88,8 +88,8 @@ textarea{
     border: 1px solid #ccc;
 }
 button{
-    background: hotpink;
-    color: turquoise;
+    background: rgb(255, 105, 198);
+    color:black;
     border: none;
     padding: 15px 25px;
     margin-top: 20px;
