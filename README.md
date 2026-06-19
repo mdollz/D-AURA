@@ -1,0 +1,1 @@
+D-Aura is a service-based website created as a school project. It provides users with information about available services and includes booking and enquiry features through a simple and user-friendly interface.
