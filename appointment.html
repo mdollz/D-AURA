@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appointment</title>
-    <link rel="stylesheet" href="CSS/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appointment</title>
+
+<link rel="stylesheet" href="CSS/style.css">
+<script src="JS/script.js" defer></script>
+
 </head>
-<body >
-    <nav >
-<a href="Index.html" >Homepage</a>
-<a href="about us.html" >About Us</a>
+
+<body>
+
+<nav>
+<a href="Index.html">Home</a>
+<a href="about us.html">About Us</a>
+<a href="services.html">Services</a>
+<a href="appointment.html">Appointment</a>
+<a href="enquiry.html">Enquiry</a>
 <a href="contact us.html">Contact Us</a>
-    <a href="services.html" >Services</a>
-    <a href="appointment.html" >Appointment</a>
-    <a href="enquiry.html" >Enquiry</a>
-    </nav>
-    <h1>Book Your Appointment</h1>
-    <center>
-    <p>Please fill in your details below to secure your spot.</p>
-    <form> 
-        <label>Full Name:</label><br>
-        <input type="text" placeholder="enter your name" required>
-        <br><br>
+<a href="faq.html">FAQ</a>
+</nav>
 
-        <label>Phone Number:</label><br>
-        <input type="text" placeholder="e.g 011 234 5678 " required>
-        <br><br>
+<h2>Book An Appointment</h2>
 
-        <label>Select Services </label><br>
-        <select required>
-            <option value="">Choose Service</option>
-            <option>Nails</option>
-            <option>Lashes</option>
-            <option>Hair Styling</option>
-        </select>
-        <br><br>
+<form>
 
-        <label>Date:</label><br>
-        <input type="date" required>
-        <br><br>
-        
-        <label>Time:</label><br>
-        <input type="time" required>
-        <br><br>
-        
-        <button type="submit">Book now</button>
+<input type="text" placeholder="Enter Full Name" required>
 
-    </form>
-    </center>
-<center
-    <p>Copyright &copy;2026-amp Developed by: <b>S.D Maguga</b></p>
+<input type="email" placeholder="Enter Email Address" required>
 
-</center>
-    
+<input type="tel" placeholder="Enter Phone Number" required>
+
+<select required>
+
+<option>Select Service</option>
+
+<option>Classic Lashes</option>
+<option>Volume Lashes</option>
+<option>Hybrid Lashes</option>
+<option>Nail Services</option>
+<option>Hair Wash</option>
+<option>Hair Treatment</option>
+<option>Hair Installation</option>
+<option>Installation + Styling</option>
+
+</select>
+
+<input type="date" required>
+
+<input type="time" required>
+
+<textarea rows="5" placeholder="Additional Notes"></textarea>
+
+<button type="submit">Book Appointment</button>
+
+</form>
+
+<footer>
+
+<p>Copyright © 2026 | Developed by S.D Maguga</p>
+
+</footer>
+
 </body>
 </html>
